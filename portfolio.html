@@ -1,0 +1,81 @@
+<!-- Demo Layout for Bootstrap (with panels) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+
+<body style="background-color: lightgrey;">
+
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        
+          <img class="img-responsive" style="padding-left: 10px; margin-left: 30px;" src="images/navbar-image.png" width="170" height="50">
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Body goes in Container -->
+<div class="container">
+    <div class="row">
+
+         <div class="col-md-6" style="background-color: white; width: 400px;">
+            <h3 style="color: #009999; font-weight: bold;">Portfolio</h3>
+            <hr style="width: 370px; text-align: left;">
+
+            <div class="container">            
+              <img src="images/Hangman.jpg" height="90" width="130" class="img-thumbnail"> 
+              <img src="images/RPG Game.jpg" height=" 90" width="130" class="img-thumbnail" > 
+            </div>
+           
+            <div class="container">            
+              <img src="images/Trivia Game.jpg" class="img-thumbnail" height="90" width="130"> 
+              <img src="images/Rutgers Info Widget.jpg" class="img-thumbnail" height="90" width="130"> 
+            </div>
+           
+            <div class="container">            
+              <img src="images/Rock Paper.jpg" class="img-thumbnail" height="90" width="130"> 
+            </div>
+            
+          </div>
+                 
+          <div class="col-md-3"></div>
+               
+          <div class="col-md-5" align="center" style="background-color: white; padding-top: 10px; width: 200px;">
+            <p style="font-size: 16px; font-weight: bold; text-align: center; color:#009999;"> Connect with Me</p>
+            <hr>
+            <img  alt="" src="images/linkedin.png" width="30" height="30">
+            <img  alt="" src="images/pBeeJQDQ.png" width="30" height="30">
+            <img  alt="" src="images/stackoverflow.png" width="30" height="30">
+          </div>
+        
+    </div>
+
+    <div class="row">
+     <div class="navbar navbar-default navbar-static-bottom navbar-fixed-bottom">
+          <div class="panel-footer" style=" height: 50px; border-top-color: #009999; border-top-width: 9px; text-align: center; background-color: darkgrey;">
+          copyright@2017</div>
+     </div>
+    </div>
+  
+  </div>
+</body>
+
+</html>
